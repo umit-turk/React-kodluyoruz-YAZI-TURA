@@ -33,7 +33,7 @@ class CoinFlipper extends Component {
       }),1000)
     } else{
       setTimeout(() => this.setState((state) => {
-        return {total: state.total + 1, side: "yazi" , yazisum: state.yazisum + 1, flipping: false,}
+        return {total: state.total + 1, side: "yazi" , yazisum: state.yazisum + 1, flipping: true,}
       }))
     }
 
